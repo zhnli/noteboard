@@ -7,7 +7,7 @@
 2: enp14s0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
     link/ether 38:d5:47:c8:84:b0 brd ff:ff:ff:ff:ff:ff
     inet 192.168.1.7/24 brd 192.168.1.255 scope global dynamic noprefixroute enp14s0
-       valid_lft 61810sec preferred_lft 61810sec
+       valid_lft 49731sec preferred_lft 49731sec
     inet6 fe80::3852:a2f:3647:51f5/64 scope link noprefixroute 
        valid_lft forever preferred_lft forever
 3: eno1: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc fq_codel state DOWN group default qlen 1000
@@ -19,7 +19,7 @@
        valid_lft forever preferred_lft forever
     inet6 fe80::42:27ff:fe4b:cc1e/64 scope link 
        valid_lft forever preferred_lft forever
-36: ppp0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1400 qdisc fq_codel state UNKNOWN group default qlen 3
+37: ppp0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1400 qdisc fq_codel state UNKNOWN group default qlen 3
     link/ppp 
-    inet 10.4.4.96 peer 192.0.2.1/32 scope global ppp0
+    inet 10.4.4.173 peer 192.0.2.1/32 scope global ppp0
        valid_lft forever preferred_lft forever
